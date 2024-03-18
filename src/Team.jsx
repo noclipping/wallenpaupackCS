@@ -10,8 +10,8 @@ export default function Team() {
             Our team
           </h2>
           <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            Explore the whole collection of open-source web components and
-            elements built with the utility classes from Tailwind
+            Meet the strapping individuals behind the polish at Wallenpaupack
+            Cleaning Services!
           </p>
         </div>
         <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
