@@ -11,9 +11,9 @@ function Hero({ scrollToPlans, handlePlanSelect }) {
               <span class="text-5xl sm:text-7xl">CLEANING SERVICES</span>
             </h1>
             <p class="text-sm text-gray-700 sm:text-base dark:text-white">
-              Dimension of reality that makes change possible and
-              understandable. An indefinite and homogeneous environment in which
-              natural events and human existence take place.
+              Discover a world where cleanliness meets convenience. Our expert
+              team is committed to delivering impeccable cleaning services,
+              tailored just for you.
             </p>
             <div class="flex mt-8">
               <a
