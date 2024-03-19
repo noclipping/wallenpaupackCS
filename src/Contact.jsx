@@ -63,6 +63,10 @@ export default function Contact({ selectedPlan }) {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
+  const handlePlanChange = (event) => {
+    setCleaningPlan(event.target.value);
+  };
+
   if (submissionCompleted) {
     return (
       <div className="w-full max-w-2xl px-5 py-10 m-auto mt-10 bg-white rounded-lg shadow dark:bg-gray-800 text-center">
@@ -85,8 +89,39 @@ export default function Contact({ selectedPlan }) {
             <div className="col-span-2">
               <span className="text-gray-700">Select Cleaning Plan:</span>
               <div className="flex flex-col mt-2">
-                {/* Radio buttons for cleaning plan */}
-                {/* Ensure these inputs are also controlled by state like the others if necessary */}
+                <label className="inline-flex items-center ml-6">
+                  <input
+                    type="radio"
+                    className="form-radio"
+                    name="cleaningPlan"
+                    value="Regular Cleaning"
+                    checked={cleaningPlan === "Regular Cleaning"}
+                    onChange={handlePlanChange}
+                  />
+                  <span className="ml-2">Regular Cleaning</span>
+                </label>
+                <label className="inline-flex items-center ml-6">
+                  <input
+                    type="radio"
+                    className="form-radio"
+                    name="cleaningPlan"
+                    value="Deep Clean"
+                    checked={cleaningPlan === "Deep Clean"}
+                    onChange={handlePlanChange}
+                  />
+                  <span className="ml-2">Deep Clean</span>
+                </label>
+                <label className="inline-flex items-center ml-6">
+                  <input
+                    type="radio"
+                    className="form-radio"
+                    name="cleaningPlan"
+                    value="Move In/Move Out Cleaning"
+                    checked={cleaningPlan === "Move In/Move Out Cleaning"}
+                    onChange={handlePlanChange}
+                  />
+                  <span className="ml-2">Move In/Move Out Cleaning</span>
+                </label>
               </div>
             </div>
 
