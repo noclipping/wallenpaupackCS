@@ -100,6 +100,7 @@ function App() {
             "Cleaning walls",
             "Baseboard cleaning",
             "Deep clean entire home",
+            "Garbage removal",
           ]}
           description="Covering all your basic cleaning needs, this package includes bathroom, kitchen, dusting, mopping, and vacuuming, ideal for maintaining a clean home environment."
         />
@@ -117,8 +118,9 @@ function App() {
             "Appliances cleaning",
             "Cleaning walls",
             "Baseboard cleaning",
+            "Deep clean entire home",
           ]}
-          disabledFeatures={["Deep clean entire home"]}
+          disabledFeatures={["Garbage removal"]}
           description="This extensive service delves deeper with appliance cleaning, wall scrubbing, and baseboard dusting, perfect for thorough cleaning needs."
         />
 
@@ -136,6 +138,7 @@ function App() {
             "Cleaning walls",
             "Baseboard cleaning",
             "Deep clean entire home",
+            "Garbage removal",
           ]}
           disabledFeatures={[]}
           description="Our comprehensive package ensures every nook and cranny is spotless, offering a complete deep clean ideal for moving situations."
