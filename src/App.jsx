@@ -88,7 +88,7 @@ function App() {
           handlePlanSelect={handlePlanSelect}
           title="Regular Cleaning"
           price="90"
-          period="per cleaning"
+          period=" / starting cost"
           features={[
             "Bathrooms/kitchen clean",
             "Dusting",
@@ -109,7 +109,7 @@ function App() {
           handlePlanSelect={handlePlanSelect}
           title="Deep Clean"
           price="150"
-          period="per cleaning"
+          period=" / starting cost"
           features={[
             "Bathrooms/kitchen clean",
             "Dusting",
@@ -128,7 +128,7 @@ function App() {
           handlePlanSelect={handlePlanSelect}
           title="Move In/Move Out Cleaning"
           price="280"
-          period="per cleaning"
+          period=" / starting cost"
           features={[
             "Bathrooms/kitchen clean",
             "Dusting",
